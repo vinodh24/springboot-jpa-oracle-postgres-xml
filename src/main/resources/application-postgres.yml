@@ -1,0 +1,7 @@
+postgres:
+  active:
+    ipaddress: XXXXX 
+  database: consolidated-auth
+  port: 5432
+  username: consolidated
+  password: consolidated123

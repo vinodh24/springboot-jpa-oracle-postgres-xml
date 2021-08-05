@@ -1,0 +1,8 @@
+# Application Config
+spring:
+  application:
+    name: springboot-database-oracle-postgres    
+  profiles:    active:    - oracle
+    - postgres
+  main:    allow-bean-definition-overriding: true 
+server:  port: 9385
